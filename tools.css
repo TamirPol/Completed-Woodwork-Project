@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+}
+
+nav {
+    opacity: 1;
+    z-index: 1;
+    background-color: ivory;
+    background-color: #222;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 35px;
+    text-decoration: none;
+    color: #ddd;
+    width: 33%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: white;
+}
+
+h1 {
+    color: #74a;
+    text-decoration: underline;
+}
+
+span {
+    padding-left: 30px;
+}
+
+p {
+    font-family: 'Lora';
+    color: rgb(42, 9, 75);
+    padding: 2px;
+}
+
+img {
+    width: 250px;
+    margin-top: 5px;
+}
+
+.tools {
+    display: grid;
+    grid-template-areas: "safety safety" "band disk" "drill spindle" "mitre table" "router palm" "mortise .";
+    grid-gap: 10px;
+    padding: 20px;
+}
+
+#bandSaw {
+    grid-area: band;
+}
+
+#disk {
+    grid-area: disk;
+}
+
+#drill {
+    grid-area: drill;
+}
+
+#spindle {
+    grid-area: spindle;
+}
+
+#safety {
+    grid-area: safety;
+}
+
+#palm {
+    grid-area: palm;
+}
+
+#mortise {
+    grid-area: mortise;
+}
+
+.tool {
+    text-align: center;
+    border: 3px solid rgb(3, 22, 189);
+    padding: 7px;
+    background: #effdfd;
+}
+
+#tableImage {
+    margin-top: 45px;
+}
+
+header {
+    color: yellow;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media only screen and (max-width: 800px) {
+    nav a {
+        font-size: 25px;
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 825px) {
+    .tools {
+        grid-template-areas: "safety" "band" "disk" "drill" "spindle" "mitre" "table" "router" " palm" "mortise";
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    nav a {
+        font-size: 20px;
+        width: 27%;
+    }
+}

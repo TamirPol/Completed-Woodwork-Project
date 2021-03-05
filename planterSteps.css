@@ -1,0 +1,126 @@
+nav {
+    opacity: 1;
+    z-index: 1;
+    background-color: ivory;
+    background-color: #222;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 35px;
+    text-decoration: none;
+    color: #ddd;
+    width: 33%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    margin: 100px;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size: x-large;
+    color: rgb(192, 192, 192);
+    margin-left: 150px;
+}
+
+body {
+    background-color: rgb(129, 129, 129);
+}
+
+#opening {
+    color: white;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+
+li {
+    font-size: 50px;
+    margin-left: 15px;
+    color: #DDD;
+    margin-top: 60px;
+    list-style-type: none;
+    text-transform: capitalize;
+}
+
+.back {
+    width: 300px;
+    height: 400px;
+}
+
+span {
+    color: white;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+ol {
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}
+
+.drawing {
+    width: 300px;
+    height: 400px;
+    transform: rotate(90deg);
+}
+
+#a {
+    color: silver;
+    font-family: cursive;
+    font-size: 40px;
+    display: block;
+}
+
+iframe {
+    width: 1000px;
+    height: 700px;
+}
+
+.flip {
+    transform: rotate(-90deg);
+}
+
+@media only screen and (max-width: 828px) {
+    nav a {
+        font-size: 25px;
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    nav a {
+        font-size: 20px;
+        width: 28%;
+    }
+}
+
+@media only screen and (max-width: 535px) {
+    nav a {
+        font-size: 15px;
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    nav a {
+        font-size: 20px;
+        width: 27%;
+    }
+}

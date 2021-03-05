@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        img {
+            display: block;
+            width: 300px;
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        nav {
+            opacity: 1;
+            z-index: 1;
+            background-color: ivory;
+            background-color: #222;
+        }
+        
+        nav a {
+            display: inline-block;
+            font-size: 35px;
+            text-decoration: none;
+            color: #ddd;
+            width: 24%;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+        nav a:hover {
+            background-color: #333;
+            color: white;
+        }
+        
+        #first {
+            color: rgb(2, 122, 122);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding: 20px;
+            font-size: large;
+        }
+        
+        h1 {
+            text-align: center;
+            color: white;
+            font-size: 50px;
+            padding: 30px;
+        }
+        
+        body {
+            background-color: silver;
+        }
+        
+        div p {
+            font-size: 1.3em;
+            height: 30em;
+            border: navy 0.2em solid;
+            padding-top: 5%;
+            padding-left: 0.4em;
+            padding-right: 0.35em;
+            background-color: white;
+            color: navy;
+            font-family: 'Lora';
+        }
+        
+        .container {
+            display: grid;
+            grid-template-areas: "mitre half" "dovetail butt" "screw dowel" "dado biscuit" "rabbet mortise" "tongue .";
+            text-align: center;
+        }
+        
+        .mitre {
+            grid-area: mitre;
+        }
+        
+        .half {
+            grid-area: half;
+        }
+        
+        .dovetail {
+            grid-area: dovetail;
+        }
+        
+        .butt {
+            grid-area: butt;
+        }
+        
+        .screw {
+            grid-area: screw;
+        }
+        
+        .dowel {
+            grid-area: dowel;
+        }
+        
+        .dado {
+            grid-area: dado;
+        }
+        
+        .biscuit {
+            grid-area: biscuit;
+        }
+        
+        .rabbet {
+            grid-area: rabbet;
+        }
+        
+        .mortise {
+            grid-area: mortise;
+        }
+        
+        .tongue {
+            grid-area: tongue;
+        }
+        
+        @media only screen and (max-width: 820px) {
+            nav a {
+                font-size: 25px;
+                width: 23%;
+            }
+            .container {
+                grid-template-areas: "mitre" "half" "dovetail" "butt" "screw" "dowel" "dado" "biscuit" "rabbet" "mortise" "tongue";
+            }
+        }
+        
+        @media only screen and (max-width: 440px) {
+            nav a {
+                font-size: 20px;
+                width: 21%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="joineries.html">Joineries</a>
+        <a href="jointFinal.html">Final Design</a>
+        <a href="jointSteps.html">Steps</a>
+    </nav>
+    <h1>Research</h1>
+    <div id="first">My first step in this project is researching how the joints look, work, their uses, and their names. I've researched and learned about Miter Joints, Half Lap Joints, Dovetail Joints, Butt Joints, Pocket Screws, Mortise and Tenons, Tongue and Grooves,
+        Dowel Joints, Dados, Biscuits, and Rabbets, and while I am not going to use all of them in my project it is always good to understand other joints.
+    </div>
+    <div class="container">
+        <div class="mitre">
+            <p>Name: Miter Joint<br> Definition: A miter joint is made by cutting each joint at a 45 degree angle to form a corner and gluing them together.
+                <br>Picture:
+                <img src="Mitre_joint_square.png"> Uses/Best used for: A miter joint is used for connecting joints at a ninety degree angle or a corner. They aren’t particularly strong and are usually used on small objects such as small boxes and picture
+                frames.
+            </p>
+        </div>
+        <div class="half">
+            <p>
+                Name: Half Lap Joint<br> Definition: A half lap joint is a joint where two pieces of wood have a rectangle cut out at the end of the pieces which then overlap each other and are glued together.
+                <br>Picture:
+                <img src="full-lap.jpg"> Uses/Best used for: Half joints are also used to connect joints at a ninety degree angle and are usually used when building and framing lumber.
+                <br><br>
+            </p>
+        </div>
+        <div class="dovetail">
+            <p>
+                Name: Dovetail Joint<br> Definition: A dovetail joint is when a series of 'pins' cut to extend from the end of one board interlock with a series of 'tails' cut into the end of another board. A dovetail is a very strong joint but one of
+                its disadvantages is the cutting and marking of it due to all its pins.
+                <br>Picture:
+                <img src="doveTail.png"> Uses/Best used for: A dovetail is commonly used to join the sides of drawers, cabinets and boxes. A sliding dovetail can also be used to create an intersection that is not at the end.
+            </p>
+        </div>
+        <div class="butt">
+            <p>
+                Name: Butt Joint<br> Definition: A butt joint is probably the simplest and easiest joint to make as it is just connecting to pieces together without doing any cuts. It is a simple joint to make but its disadvantage is that it doesn’t hold
+                very well.
+                <br>Picture:
+                <img src="Butt_joint.png"> Uses/Best used for: A butt joint is used to create frames, widen boards, and create carasses.
+                <br><br>
+            </p>
+        </div>
+        <div class="screw">
+            <p>
+
+                Name: Pocket Screw<br> Definition: Pocket screw joinery involve drilling a hole usually at a 15 degree angle into the first piece and joining it to the second with a screw
+                <br>Picture:
+                <img src="pocket screw.gif"> Uses/Best used for: Pocket screw joineries are stronger (due to the screw) and are used to connect harder and heavier intersections.
+                <br><br>
+            </p>
+        </div>
+        <div class="dowel">
+            <p>
+                Name: Dowel Joint<br> Definition: Dowel joints involves inserting wooden sticks or dowels into holes in one piece of wood which is then connected into the other piece.
+                <br>Picture:
+                <img src="dowel_joints.jpg"> Uses/Best used for: Dowels are used for making strong, accurate joints in wood. They are thicker and sturdier than nails or screws and therefore less prone to breakage. They provide a stronger joint than just
+                using glue as they insert into both the pieces of wood being joined together. This means they cannot easily snap apart.
+                <br><br>
+            </p>
+        </div>
+        <div class="dado">
+            <p>
+                Name: Dado<br> Definition: A dado joint is when in one piece of wood there is a slot or a channel cut into the surface and the other piece is glued inside it.
+                <br>Picture:
+                <img src="dado.gif"> Uses/Best used for: The dado joint makes a strong and simple connection between component pieces of bookshelves, drawers, cabinets, and other casework.
+                <br><br>
+            </p>
+        </div>
+        <div class="biscuit">
+            <p>
+                Name: Biscuit<br> Definition: A biscuit joint is when you connect two pieces of wood in an intersection together using tiny circles or biscuits.
+                <br>Picture:
+                <img src="biscuit.gif"> Uses/Best used for: Biscuits joints are easy to mark and cut and while not being one of the stronger joineries, biscuit joints are still pretty strong and are also used for alignment.
+                <br><br>
+            </p>
+        </div>
+        <div class="rabbet">
+            <p>
+                Name: Rabbet<br> Definition: A rabbet joint is similar to the dado joint but instead the channel being somewhere in the middle, it is on the edges.
+                <br>Picture:
+                <img src="rabbet.gif"> Uses/Best used for: Because of its limited mechanical properties, the rabbet should be limited to small scale structural applications, like small boxes, wall cabinets, and desk organizers. The rabbet joint is used
+                primarily to set backboards onto the back of a case piece or to accommodate the glass on a mirror frame.
+                <br><br></p>
+        </div>
+        <div class="mortise">
+            <p>
+                Name: Mortise and Tenon<br> Definition: A mortise and tenon joinery is a joint with two pieces, one with a hole and one with an “extension” (same length, width,and depth) at the end of it that are glued together.
+                <br>Picture:
+                <img src="Mortise_and_tenon_joint.png"> Uses/Best used for: Mortise-and-tenon joints are among the strongest joints in woodworking, and are used for projects that have frame construction and need to be strong. Chairs and tables use them
+                as does most Arts and Crafts and Mission style furniture.
+                <br><br>
+            </p>
+        </div>
+        <div class="tongue">
+            <p>
+                Name: Tongue and Groove<br> Definition: a joint between two boards in which a raised area on the edge of one board fits into a corresponding groove in the edge of the other to produce a flush surface.
+                <br>Picture:
+                <img src="tongue and grove.jpg"> Uses/Best used for: Tongue and groove joints are used for many projects such as sheathing buildings and to construct concrete formwork.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Design</title>
+    <style>
+        nav {
+            opacity: 1;
+            z-index: 1;
+            background-color: ivory;
+            background-color: #222;
+        }
+        
+        nav a {
+            display: inline-block;
+            font-size: 35px;
+            text-decoration: none;
+            color: #ddd;
+            width: 33%;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+        nav a:hover {
+            background-color: #333;
+            color: white;
+        }
+        
+        h1 {
+            font-size: 3vw;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        h3 {
+            padding: 2vw;
+            font-size: 1.4vw;
+            color: navy;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        span {
+            padding-left: 2vw;
+        }
+        
+        header {
+            background-color: silver;
+            padding: 30px;
+        }
+        
+        .pictures {
+            text-align: center;
+        }
+        
+        @media only screen and (max-width: 828px) {
+            nav a {
+                font-size: 25px;
+                width: 30%;
+            }
+        }
+        
+        @media only screen and (max-width: 630px) {
+            nav a {
+                font-size: 20px;
+                width: 28%;
+            }
+        }
+        
+        @media only screen and (max-width: 535px) {
+            nav a {
+                font-size: 15px;
+                width: 25%;
+            }
+        }
+        
+        img {
+            width: 31vw;
+            height: 24vw;
+            display: inline;
+            margin: 3px;
+            border: 1px solid black;
+            display: inline-block;
+        }
+        
+        @media only screen and (max-width: 440px) {
+            nav a {
+                font-size: 20px;
+                width: 27%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="planter.html">Planter Box</a>
+        <a href="planterSteps.html">Steps</a>
+    </nav>
+    <header>
+        <h1>Final Design</h1>
+        <h3><span></span>A more independent project, the planter box was definitley a very fun task. I wished that I had more time to work on it so that I could have glued everything, sanded more, and made the trim. One thing I believe I did well was the
+            measurements and joneries for the pieces of wood. I never had to rethink or adjust the size of the pieces or the joinery I have used. In the future, maybe this weekend, I would like to sand it down, and if I can add a trim at with the hand
+            tools I have at home.
+        </h3>
+    </header>
+    <div class="pictures"></div>
+    <script>
+        let pictures = document.getElementsByClassName("pictures")[0]
+        let pictureArray = []
+        for (let i = 0; i < 8; i++) {
+            pictureArray.push("plant" + i + ".jpg")
+        }
+        pictureArray.forEach(value => {
+            pictures.innerHTML += `<img src='${value}'>`
+        })
+    </script>
+</body>
+
+</html>

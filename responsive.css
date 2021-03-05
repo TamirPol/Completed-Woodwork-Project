@@ -1,0 +1,141 @@
+@media only screen and (max-width: 820px) {
+    nav a {
+        font-size: 25px;
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    nav a {
+        font-size: 20px;
+        width: 27%;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    h1 {
+        margin-top: -1%;
+    }
+}
+
+@media only screen and (max-width: 755px) {
+    .planter,
+    .bbq,
+    .joineries {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        margin-top: 0;
+        background-size: 100vw 500px;
+        background-position: center center;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .planter,
+    .bbq,
+    .joineries {
+        background-size: 100vw 300px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    h1 {
+        margin-top: -1%;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    h1 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    .text {
+        font-size: large;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    h1 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    .text {
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width: 444px) {
+    h1 {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 10px;
+    }
+    .text {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .tilted {
+        transform: rotate(-90deg);
+        height: 100vw;
+    }
+}
+
+@media only screen and (max-width: 1156px) {
+    .bbq {
+        margin-top: -50px;
+    }
+}
+
+@media only screen and (max-width: 1060px) {
+    .bbq {
+        margin-top: -100px;
+    }
+}
+
+@media only screen and (max-width: 972px) {
+    .bbq {
+        margin-top: -150px;
+    }
+}
+
+@media only screen and (max-width: 883px) {
+    .bbq {
+        margin-top: -200px;
+    }
+}
+
+@media only screen and (max-width: 777px) {
+    .bbq {
+        margin-top: -250px;
+    }
+}
+
+@media only screen and (max-width: 727px) {
+    .bbq {
+        margin-top: -300px;
+    }
+}
+
+@media only screen and (max-width: 653px) {
+    .bbq {
+        margin-top: -350px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .bbq {
+        margin-top: -400px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .bbq {
+        margin-top: -450px;
+    }
+}
