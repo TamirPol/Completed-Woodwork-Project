@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamir's Woodworks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="tools.html">Tools</a>
+        <a href="trades.html">Trades</a>
+    </nav>
+    <header>
+        <h1>Tamir's WoodShop</h1>
+        <div class="description">
+            <h3>2020-2021</h3>
+            <h3>TIJIO</h3>
+        </div>
+        <p class="text">
+            My name is Tamir Polyakov, I am in grade 9 and I take Mr. Doherty fun tech class This website showcases all my projects from technology class, as well as explanation about machines and tools, my process for each project, and how to create your own woodwork.
+        </p>
+    </header>
+    <div class="bbq">
+        <div class="bbqText">
+            <h2>Barbeque Scraper</h2>
+            <p>
+                The first project that I have created in tech class was the barbeque scraper. A tool used to clean the barbeque after a good day of grilling. I have created the barbeque scraper from a 2" by 6" by 1" cedar board with woodworking tools, hand tools, and
+                sand paper.
+            </p>
+        </div>
+    </div>
+    <div class="joineries">
+        <div class="jointText">
+            <h2>Joineries</h2>
+            <p>
+                The second project that I have created in tech class was the joineries. Joineries are ways to connect pieces of wood together. There are thirteen different joineries and I learned how to create five in this project. The butt joint, mitre joint, dovetail
+                joint, half lap joint, and the mortoise and tenon joint.
+            </p>
+        </div>
+    </div>
+    <div class="planter">
+        <div class="planterText">
+            <h2>Planter Box</h2>
+            <p>
+                My last project this year is the planter box. The planter box is the most difficult project I had thus far because I have to create the design my self with a limited amount of wood, 6-7 board feet.
+            </p>
+        </div>
+    </div>
+    <script>
+        let bbq = document.getElementsByClassName("bbq")[0]
+        let joineries = document.getElementsByClassName("joineries")[0]
+        let planter = document.getElementsByClassName("planter")[0]
+        bbq.addEventListener("click", () => {
+            location.href = "bbq.html"
+        })
+        joineries.addEventListener("click", () => {
+            location.href = "joineries.html"
+        })
+        planter.addEventListener("click", () => {
+            location.href = "planter.html"
+        })
+    </script>
+</body>
+
+</html>

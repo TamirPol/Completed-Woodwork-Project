@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joineries</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        h1 {
+            font-size: 4.425vw;
+            position: absolute;
+            top: 8.85vw;
+            left: 8.85vw;
+            color: white;
+            font-family: 'Playfair Display', serif;
+        }
+        
+        body {
+            background-color: rgb(129, 129, 129);
+        }
+        
+        h2 {
+            font-family: 'Merriweather', serif;
+            font-size: 1.40125vw;
+            color: rgb(192, 192, 192);
+            position: absolute;
+            top: 18.4375vw;
+            left: 15.4875vw;
+        }
+        
+        p {
+            width: 35%;
+            position: absolute;
+            top: 50.8125vh;
+            left: 29.5vw;
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 1.18vw;
+        }
+        
+        @media only screen and (max-width: 890px) {
+            p {
+                top: 40.8125vh;
+            }
+        }
+        
+        nav {
+            opacity: 1;
+            z-index: 1;
+            background-color: ivory;
+            background-color: #222;
+        }
+        
+        nav a {
+            display: inline-block;
+            font-size: 35px;
+            text-decoration: none;
+            color: #ddd;
+            width: 24%;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+        nav a:hover {
+            background-color: #333;
+            color: white;
+        }
+        
+        span {
+            padding-left: 2.2125vw;
+        }
+        
+        @media only screen and (max-width: 820px) {
+            nav a {
+                font-size: 25px;
+                width: 23%;
+            }
+        }
+        
+        @media only screen and (max-width: 440px) {
+            nav a {
+                font-size: 20px;
+                width: 21%;
+            }
+        }
+        
+        @media only screen and (max-width: 560px) {
+            h1 {
+                top: 20vw
+            }
+            h2 {
+                top: 30vw;
+            }
+        }
+        
+        #bbqP1 {
+            cursor: pointer;
+            width: calc(100% / 3);
+            height: calc(100% / 3);
+            z-index: -1;
+            margin-left: 51.625vw;
+            margin-top: 3.6875vw;
+            transition: filter 1s;
+        }
+        
+        #bbqP1:hover {
+            filter: brightness(130%) contrast(110%);
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="jointSteps.html">Steps</a>
+        <a href="jointFinal.html">Final Design</a>
+        <a href="research.html">Research</a>
+    </nav>
+    <h1>Joineries</h1>
+    <h2>My Second Woodworking Project</h2>
+    <p><span>After </span> finishing my first project, the barbeque scraper, it is time to move onto something harder. Joineries. In this project I have cut multiple different joints which include: the butt joint, half lap joint, miter joint, 2 dovetail
+        joints, and the mortise and tenon joint into one woodpiece as shown in the sketchup image. The project itself has no real use, unlike the barbeque scraper which is used to clean the grill, this project's only purpose is to teach me how to create
+        joineries and to advance my woodworking skills.<br>One thing that I have thought I could do with this project is create a picture frame by putting a board at the back, painting all the pieces, gluing them together, adding the pictures, and putting
+        a glass board on the front.
+    </p>
+    <img src="PictureJoints (1).png" id="bbqP1">
+</body>
+
+</html>
